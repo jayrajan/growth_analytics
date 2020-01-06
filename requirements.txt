@@ -1,0 +1,32 @@
+
+
+PRE-REQUISITIES:
+================
+- The program is scripted in Python3. Have the correct version of
+  python installed.
+- Please ensure you have following libraries installed:
+  pandas
+  JSON
+  tweepy
+  urllib
+  re
+  os
+- Please have the following files in the same directory as core.py
+  fuse_image.py
+  GrowthAnalytics_python test_final.xlsx
+- Make sure the Twitter Key and Token are valid before running the script.
+  Please update core.py file with the correct Security & Access Key/Token
+  The code has been tested using my personal Twitter account and have been able
+  post tweets. Please check twitter handle - @jayrajan27.
+
+INSTRUCTIONS:
+==============
+  1) Please run script from a Terminal. Type python3 core.py
+  2) The code will prompt for the file name of the Excel spreadsheet. Key in
+     GrowthAnalytics_python test_final.xlsx when asked.
+  3) There will be a new directory called 'fusion' which will contain copies
+      of the url images with the hc logo.
+  4) The script is designed to post tweets every 5 seconds instead of 5 mins,
+      This is for testing purposes. This can be tweaked in the core.py by
+      adjusting the post_time variable in seconds.
+  5) Delete the fusion folder before running the script again.
