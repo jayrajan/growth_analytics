@@ -16,10 +16,10 @@ import os
 from fuse_image import fuse_logo
 
 # # TWITTER KEY & TOKEN - @api_hour
-CONSUMER_KEY = 'seVLLCOytO6kGgZSUtH3L92Cl'
-CONSUMER_SECRET = 'uyPiU6AuRViOJfsaIK1Dw0lBQBb87ugyPAAjCwi9naRlexQyZG'
-ACCESS_TOKEN = '83000825714528264-ksmVwNgj16OtuySj8jqFgwPc7xxxOSE'
-ACCESS_TOKEN_SECRET = 'DGhrHAXLOHfqNstsRbthhs5Q2UwUuiXMJpXS8ChW3quuS'
+CONSUMER_KEY = 'oBiIhg7ZF5wefAihCCm1rl1Wj'
+CONSUMER_SECRET = 'bG6DjIFrIaqsrIFv5pafCXRbGtpC6nYz8HIcMJxocHQ6sQGkes'
+ACCESS_TOKEN = '290090813-XSgGWVmRde2FT3o4DgBoRMkyxqSqHCXUMD5in5Vt'
+ACCESS_TOKEN_SECRET = 'sPUVX7l1sXgUkxf25nw1PCdS55Os3caTmOA3IE6RPOI7s'
 
 # INITIALISATION
 tweet_txt = list()
@@ -41,7 +41,7 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 
 # Create Twitter API object
 api = tweepy.API(auth)
-print(api)
+
 # Create a new folder-images in current directory to save the url images
 path = './fusion'
 try:
